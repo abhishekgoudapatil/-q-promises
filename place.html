@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.js"></script>
+    <script src="place.js"></script>
+  </head>
+
+  <body ng-app="app" ng-controller="places">
+    <h1>List of cities</h1>
+    <ul>
+      <li ng-repeat="place in places">{{ place }}</li>
+    </ul>
+  </body>
+
+</html>
